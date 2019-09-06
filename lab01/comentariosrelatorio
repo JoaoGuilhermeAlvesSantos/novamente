@@ -1,0 +1,13 @@
+Primeiramente apliquei o método de Floyd e Steinberg. Método da esquerda pra direita, para imagens coloridas e tons de cinza.
+
+
+Em seguida, apliquei o sentido alternado, do modo: 	----->
+							<-----
+							----->
+							<-----
+para a direita ficamos com: 	
+				(x,y) 	7/16
+			3/16 	5/16	1/16		
+para a esquerda, ficamos com:
+			7/16	(x,y) 	
+			1/16 	5/16	3/16				
